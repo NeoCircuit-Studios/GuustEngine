@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "Release\\Main.obj",
+            "outputs": [
+                "Release\\Main.cc.obj.dt.module.json",
+                "Release\\Main.cc.obj.dt.d.json"
+            ],
+            "requires": []
+        }
+    ]
+}

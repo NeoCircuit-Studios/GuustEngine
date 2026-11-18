@@ -1,0 +1,16 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Folder Name="/Examples/">
+    <Project Path="Examples/Any/HelloWorld-Simple/HelloWorld-Simple.vcxproj" Id="885a33e0-793e-445f-92a8-d0be90a5da98">
+      <Build Solution="*|x86" Project="false" />
+    </Project>
+  </Folder>
+  <Folder Name="/Samples/">
+    <Project Path="Samples/ScreenSaver/ScreenSaver.vcxproj" Id="4ec63c64-2c79-4d55-b65c-32ae09d11432">
+      <Build Solution="*|x86" Project="false" />
+    </Project>
+  </Folder>
+</Solution>
