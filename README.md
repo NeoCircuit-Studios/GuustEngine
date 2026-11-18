@@ -32,7 +32,7 @@ If you do let us [know](/PULL_REQUEST.md), maybe we can support and help!
 ## C++ code overview (windows)[^1].
 [^1]: It is technically cross platform.
 
-[**HelloWorld_Simple Example**](https://github.com/NeoCircuit-Studios/GuustEngine/Examples/Any/HelloWorld-Simple/)
+[**HelloWorld_Simple Example**](/Examples/HelloWorld-Simple/)
 
 ```C++
 // include the engine to use it
@@ -75,7 +75,7 @@ int main() {
 
 
 # Compiled Binaries:
-You can find the binaries (*GuustEngine.dll/.lib/.hpp*) in [Releases](https://github.com/NeoCircuit-Studios/GuustEngine/releases) and in the [Repo Source Files](https://github.com/NeoCircuit-Studios/GuustEngine/Engine).
+You can find the binaries (*GuustEngine.dll/.lib/.hpp*) in [Releases](https://github.com/NeoCircuit-Studios/GuustEngine/releases) and in the [Repo Source Files](/Engine).
 
 ## How to start ?
 
@@ -95,7 +95,7 @@ You can find the binaries (*GuustEngine.dll/.lib/.hpp*) in [Releases](https://gi
 
 1. In the Source folder of this repo (called '**GuustEngine**'). Load the project with Visual Studio by double-clicking the '**GuustEngine.slnx**' file.  ***(GuustEngine/GuustEngine.slnx)***
 
-1. Press on the top rigt the **build** button then press **Build Solution**: it will build all the [**Example**](https://github.com/NeoCircuit-Studios/GuustEngine/Examples/) and [**Sample**](https://github.com/NeoCircuit-Studios/GuustEngine/Samples/) Projects.
+1. Press on the top rigt the **build** button then press **Build Solution**: it will build all the [**Example**](/Examples/) and [**Sample**](/Samples/) Projects.
 	- You will find the build projects in '**x64**' folder in the Source folder of this repo. ***(GuustEngine/x64/)***
 
 #### Linux:
