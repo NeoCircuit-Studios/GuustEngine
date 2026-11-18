@@ -114,7 +114,7 @@ You can find the binaries (*GuustEngine.dll/.lib/.hpp*) in [Releases](https://gi
 
 
 # Issus:
-Found a bug? look in [KNOWN_ISSUES.md](/KNOWN_ISSUES.md) if not already there, if not make a [PR](/PULL_REQUEST.md).
+Found a bug? look in [KNOWN_ISSUES.md](/KNOWN_ISSUES.md) if not already there, make a [PR](/PULL_REQUEST.md) :).
 
 # LICENSE
 Licensed under MIT License
