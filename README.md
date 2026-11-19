@@ -98,6 +98,8 @@ You can find the binaries (*GuustEngine.dll/.lib/.hpp*) in [Releases](https://gi
 1. Press on the top rigt the **build** button then press **Build Solution**: it will build all the [**Example**](/Examples/) and [**Sample**](/Samples/) Projects.
 	- You will find the build projects in '**x64**' folder in the Source folder of this repo. ***(GuustEngine/x64/)***
 
+1. You can continue from an **example/sample** or start from scratch with the [**EmptyProject**](/EmptyProject/).
+
 #### Linux:
 - Sorry not **yet** supported
 
