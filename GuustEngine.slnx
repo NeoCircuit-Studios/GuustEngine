@@ -13,4 +13,5 @@
       <Build Solution="*|x86" Project="false" />
     </Project>
   </Folder>
+  <Project Path="EmptyProject/EmptyProject.vcxproj" Id="46d374b5-f853-4ccb-9c83-eadf3fbad8b2" />
 </Solution>
