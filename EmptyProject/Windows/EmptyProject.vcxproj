@@ -77,19 +77,19 @@
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions);__WINDOWS__</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp20</LanguageStandard>
-      <AdditionalIncludeDirectories>..\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>..\Engine\Windows\$(Platform).$(Configuration)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>..\..\Engine\Windows\$(Platform).$(Configuration)</AdditionalLibraryDirectories>
       <AdditionalDependencies>GuustEngine.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <Manifest>
       <EnableSegmentHeap>true</EnableSegmentHeap>
     </Manifest>
     <PostBuildEvent>
-      <Command>copy ..\Engine\Windows\$(Platform).$(Configuration)\GuustEngine.dll $(OutDir) /y </Command>
+      <Command>copy ..\..\Engine\Windows\$(Platform).$(Configuration)\GuustEngine.dll $(OutDir) /y </Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -101,19 +101,19 @@
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions);__WINDOWS__</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp20</LanguageStandard>
-      <AdditionalIncludeDirectories>..\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>..\Engine\Windows\$(Platform).$(Configuration)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>..\..\Engine\Windows\$(Platform).$(Configuration)</AdditionalLibraryDirectories>
       <AdditionalDependencies>GuustEngine.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <Manifest>
       <EnableSegmentHeap>true</EnableSegmentHeap>
     </Manifest>
     <PostBuildEvent>
-      <Command>copy ..\Engine\Windows\$(Platform).$(Configuration)\GuustEngine.dll $(OutDir) /y </Command>
+      <Command>copy ..\..\Engine\Windows\$(Platform).$(Configuration)\GuustEngine.dll $(OutDir) /y </Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -123,19 +123,19 @@
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions);__WINDOWS__</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp20</LanguageStandard>
-      <AdditionalIncludeDirectories>..\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>..\Engine\Windows\$(Platform).$(Configuration)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>..\..\Engine\Windows\$(Platform).$(Configuration)</AdditionalLibraryDirectories>
       <AdditionalDependencies>GuustEngine.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <Manifest>
       <EnableSegmentHeap>true</EnableSegmentHeap>
     </Manifest>
     <PostBuildEvent>
-      <Command>copy ..\Engine\Windows\$(Platform).$(Configuration)\GuustEngine.dll $(OutDir) /y </Command>
+      <Command>copy ..\..\Engine\Windows\$(Platform).$(Configuration)\GuustEngine.dll $(OutDir) /y </Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -147,19 +147,19 @@
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions);__WINDOWS__</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp20</LanguageStandard>
-      <AdditionalIncludeDirectories>..\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>..\Engine\Windows\$(Platform).$(Configuration)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>..\..\Engine\Windows\$(Platform).$(Configuration)</AdditionalLibraryDirectories>
       <AdditionalDependencies>GuustEngine.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <Manifest>
       <EnableSegmentHeap>true</EnableSegmentHeap>
     </Manifest>
     <PostBuildEvent>
-      <Command>copy ..\Engine\Windows\$(Platform).$(Configuration)\GuustEngine.dll $(OutDir) /y </Command>
+      <Command>copy ..\..\Engine\Windows\$(Platform).$(Configuration)\GuustEngine.dll $(OutDir) /y </Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
