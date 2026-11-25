@@ -4,6 +4,7 @@
     <Platform Name="x86" />
   </Configurations>
   <Folder Name="/Examples/">
+    <Project Path="Examples/Any/DrawGrid8x8/DrawGrid8x8.vcxproj" Id="671f2742-302a-4a8a-aaa6-a553ac015058" />
     <Project Path="Examples/Any/HelloWorld-Simple/HelloWorld-Simple.vcxproj" Id="885a33e0-793e-445f-92a8-d0be90a5da98">
       <Build Solution="*|x86" Project="false" />
     </Project>

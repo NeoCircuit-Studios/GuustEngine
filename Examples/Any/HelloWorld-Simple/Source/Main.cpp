@@ -1,3 +1,7 @@
+// NeoCircuit-Studios 2026 | Copyright All Rights Reserved
+// GuustEngine 
+// build with version: 1.1.0.0
+
 // use the engine
 // this file is in 'Include\' in the repo
 #include <GuustEngine.hpp>
